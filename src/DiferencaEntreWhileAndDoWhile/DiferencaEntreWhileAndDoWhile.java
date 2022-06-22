@@ -3,10 +3,9 @@ package DiferencaEntreWhileAndDoWhile;
 public class DiferencaEntreWhileAndDoWhile {
 
 	public static void main(String[] args) {
-		
-		int numero = 0;
-		
+				
 		/* While - check first and later to do*/
+		int numero = 0;
 		while( numero < 60) {
 			System.out.println("Número atual > "+ numero);
 			numero++; //conta até chegar 60
