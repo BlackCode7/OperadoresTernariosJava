@@ -13,12 +13,17 @@ public class OperadoresTernariosJava {
 		media = (nota1 + nota2 + nota3 + nota4) / 4;
 		
 		/* Condições lógicas com IF - se e ELSE - senao */
-		if (media >= 70) {
-			System.out.println("Aluno aprovado " + media);
+		if (media >= 50){
+			if( media >= 70 ) {
+				System.out.println("Até aqui Aprovado!");
+			}else {
+				System.out.println("Atenção com as notas!");
+			}
+			System.out.println("Aluno aprovado! " + media);
 		} else if(media >= 40 && media <= 50) {
-			System.out.println("Aluno do recuperação " + media);
+			System.out.println("Aluno do recuperação! " + media);
 		} else {
-			System.out.println("Aluno reprovado " + media);
+			System.out.println("Aluno reprovado! " + media);
 		}
 		
 		/* Operadores ternários em java */
