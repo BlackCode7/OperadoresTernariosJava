@@ -3,6 +3,10 @@ package OperadoresTernariosJava;
 public class OperadoresTernariosJava {
 
 	public static void main(String[] args) {
+		/*
+		 CONFIGURAÇÂO DE NOVAS BRANCH NO ECLIPSE
+		 REF >>>  http://www.mauda.com.br/?p=1814
+		*/
 		
 		int nota1 = 30;
 		int nota2 = 60;
