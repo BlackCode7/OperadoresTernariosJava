@@ -21,6 +21,11 @@ public class OperadoresTernariosJava {
 		/* Condições lógicas com IF - se e ELSE - senao */
 		if (media >= 50){
 			if( media >= 70 ) {
+				
+				if( media > 90) {
+					System.out.println("Parabéns Aluno! Você está aprovado!");
+				}
+				
 				System.out.println("Até aqui Aprovado!");
 			}else {
 				System.out.println("Atenção com as notas!");
