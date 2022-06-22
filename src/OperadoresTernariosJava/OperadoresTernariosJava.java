@@ -16,6 +16,8 @@ public class OperadoresTernariosJava {
 		
 		media = (nota1 + nota2 + nota3 + nota4) / 4;
 		
+		/* Inclui código */
+		
 		/* Condições lógicas com IF - se e ELSE - senao */
 		if (media >= 50){
 			if( media >= 70 ) {
